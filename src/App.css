@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+}
+.projectContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  height: 95vh;
+  width: 20%;
+  background-color: #33667c;
+  border-radius: 20px;
+  color: white;
+  filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.25));
+  gap: 25px;
+}
+.projectButtons {
+  border: none;
+  background-color: transparent;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.operationsCanvas,
+.operationsControllers {
+  transition: width 0.5s; /* Smooth transition for the width changes */
+}
+.operationsContainer {
+  display: flex;
+}
+.navbar {
+  width: 100%;
+  background-color: white;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.operationContainer {
+  width: 80%;
+  background-color: #d9d9d9;
+}
+.operationsController {
+  background-color: white;
+  width: 20%;
+  margin-top: 5vh;
+  box-shadow: 0px 4px 6px 2px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+/* CSS class to hide operationsControllers */
+.hidden {
+  width: 0; /* Set width to 0 to hide the element */
+  padding: 0; /* Set padding to 0 to ensure it does not take space */
+  margin: 0; /* Adjust margin if necessary */
+}
+.operationsProjectName {
+  background-color: white;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 15px;
+}
+.operationsCanvas {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem 2rem;
+}
+.operationsItems {
+  display: flex;
+  gap: 25px;
+}
+.operationsName {
+  border: 1px solid #935757;
+  background-color: #fadfdf;
+  border-radius: 10px;
+  width: 132px;
+  height: 39px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.operationsTools {
+  background-color: #404e53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 132px;
+  height: 39px;
+}
+.removeOperationButton {
+  border: none;
+  background-color: #e23a3a;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 100%;
+  padding: 1rem;
+  cursor: pointer;
+}
+.buttonOperations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
